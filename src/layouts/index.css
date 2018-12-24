@@ -19,6 +19,7 @@ nav,
 section,
 summary {
   display: block;
+  color: #ff0;
 }
 audio,
 canvas,
