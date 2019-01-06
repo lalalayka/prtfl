@@ -1,4 +1,5 @@
 /* ---- Font ---- */
+
 @font-face {
 	font-family: 'Formular';
 	src: 	url('../webfonts/31E6CB_0_0.woff2') format('woff2'),
@@ -70,7 +71,7 @@ body {
 .container__main {
 	position: relative;
 }
-.txt__intro {
+.main__intro {
 	width: 100%;
 	padding-top: 20rem;
 	padding-right: 25%; 
@@ -78,6 +79,13 @@ body {
 	line-height: 2.5rem;
 	box-sizing: border-box;
 }
-.txt__intro p {
+.main__intro h1,
+.main__intro p {
 	padding-bottom: 1.25rem;
+}
+.container__cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 4rem;
+	box-sizing: border-box;
 }

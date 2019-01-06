@@ -1,14 +1,31 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+import Card from '../components/card';
+import data_cards from '../../data_cards.json'
 
 const IndexPage = () => (
   <div className="container__main">
-    <div className="txt__intro">
+    <div className="main__intro">
       <span>
-        <p>Hello! my name is Sergey. I’m working as communication designer since 2011. I have expertise in creation as online as offline products. Since the end of 2015 I started to gain experience in UI/UX design. In my past, I worked with such companies as Kommersant and Yandex. At this moment I’m employed as a senior graphic/web/UI designer in Exness, one of the top leaders’ forex broker. Located in Cyprus.</p>
+        <h1>Hello! my name is Sergey.</h1>
+        <p> I’m working as communication designer since 2011. I have expertise in creation as online as offline products. Since the end of 2015 I started to gain experience in UI/UX design. In my past, I worked with such companies as Kommersant and Yandex. At this moment I’m employed as a senior graphic/web/UI designer in Exness, one of the top leaders’ forex broker. Located in Cyprus.</p>
         <p>If you are interested in doing some projects with my help or wanna just say «Hi!» or ask something, don’t be shy write me a letter. I would like to help you.</p>
       </span>
     </div>
+    <div className="container__cards">
+      {/* <Card 
+        title='Dasha the Guide in Moscow'
+        tag='Landing Page'
+        image={require('../projects/dasha/thumb@2x.png')}
+        link='../projects/dasha'/> */}
+    </div>
+    {data_cards.cards.map(card => (
+      <Card 
+      title={card.title}
+      tag={card.tag}
+      image={card.image}
+      link={card.link}/>
+    ))}
   </div>
 )
 

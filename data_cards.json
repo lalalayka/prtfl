@@ -1,0 +1,34 @@
+{
+    "cards": [
+        {
+            "title": "Dasha the Guide in Moscow", 
+            "tag": "Landing Page",
+            "image": "../projects/dasha/thumb@2x.png",
+            "link": "../projects/dasha"
+        },
+        {
+            "title": "Dasha the Guide in Moscow", 
+            "tag": "Landing Page",
+            "image": "src/projects/dasha/thumb@2x.png",
+            "link": "src/projects/dasha"
+        },
+        {
+            "title": "Dasha the Guide in Moscow", 
+            "tag": "Landing Page",
+            "image": "src/projects/dasha/thumb@2x.png",
+            "link": "src/projects/dasha"
+        },
+        {
+            "title": "Dasha the Guide in Moscow", 
+            "tag": "Landing Page",
+            "image": "src/projects/dasha/thumb@2x.png",
+            "link": "src/projects/dasha"
+        },
+        {
+            "title": "Dasha the Guide in Moscow", 
+            "tag": "Landing Page",
+            "image": "src/projects/dasha/thumb@2x.png",
+            "link": "src/projects/dasha"
+        }
+    ]
+}

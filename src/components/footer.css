@@ -21,15 +21,15 @@
     width: 40px;
     height: 40px;
     margin-right: 20px;
-    transition: background .3s;
+    transition: .3s;
 }
 .footer__smm--item:hover {
     background: red;
-    transition: background .3s;
+    transition: .3s;
 }
 .footer__smm--item svg:hover {
     fill: white;
-    transition: fill .3s;
+    transition: .3s;
 }
 
 @media (max-width: 639px) {
