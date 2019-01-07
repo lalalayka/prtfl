@@ -88,4 +88,5 @@ body {
 	flex-wrap: wrap;
 	margin-bottom: 4rem;
 	box-sizing: border-box;
+	width: 100%;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Card from '../components/card';
-import data_cards from '../../data_cards.json'
+import staticdata from '../../staticdata.json'
 
 const IndexPage = () => (
   <div className="container__main">
@@ -13,19 +13,14 @@ const IndexPage = () => (
       </span>
     </div>
     <div className="container__cards">
-      {/* <Card 
-        title='Dasha the Guide in Moscow'
-        tag='Landing Page'
-        image={require('../projects/dasha/thumb@2x.png')}
-        link='../projects/dasha'/> */}
+      {staticdata.cards.map(card => (
+        <Card 
+        title={card.title}
+        tag={card.tag}
+        image={card.image}
+        link={card.link}/>
+        ))}
     </div>
-    {data_cards.cards.map(card => (
-      <Card 
-      title={card.title}
-      tag={card.tag}
-      image={card.image}
-      link={card.link}/>
-    ))}
   </div>
 )
 
